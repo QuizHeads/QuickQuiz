@@ -105,17 +105,17 @@ List of network requests by screen
 - Login Screen
     - (Read/Get) Authenticate user credentials
         
-            ```
-            ParseUser.logInInBackground("user1","user1password", new LogInCallback() {
-            public void done(ParseUser user, ParseException e) {
-            if (user != null) {
-            // user is logged in.
-            } else {
-            // Login failed. Look at the ParseException to see what happened.
-            }
-            }
-            });
-    ```
+         ```
+         ParseUser.logInInBackground("user1","user1password", new LogInCallback() {
+         public void done(ParseUser user, ParseException e) {
+         if (user != null) {
+         // user is logged in.
+         } else {
+         // Login failed. Look at the ParseException to see what happened.
+         }
+         }
+         });
+         ```
         
     
     
