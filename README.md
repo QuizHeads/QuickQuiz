@@ -72,10 +72,67 @@ QuickQuiz is an application that helps students quickly find answers for their q
 ### [BONUS] Interactive Prototype
 
 ## Schema 
-[This section will be completed in Unit 9]
 ### Models
-[Add table of models]
+**Q/A**
+| Property | Type | Description              |
+| -------- | ---- | ------------------------ |
+| Question | Text | Question to be displayed |
+| Option_1 | Text | Answer option 1          |
+| Option_2 | Text | Answer option 2          |
+| Option_3 | Text | Answer option 3          |
+| Option_4 | Text | Answer option 4          |
+| Correct_ans | Text  | Correct answer for the question|
+
 ### Networking
-- [Add list of network requests by screen ]
-- [Create basic snippets for each Parse network request]
-- [OPTIONAL: List endpoints if using existing API such as Yelp]
+List of network requests by screen
+- SignUp Screen
+    - (Create) Add a new user
+    ```
+     ParseUser user = new ParseUser();
+     user.setUsername("username");
+     user.setPassword("password");
+     user.setEmail("useremail@example.com");
+     user.signUpInBackground(new SignUpCallback() {
+     public void done(ParseException e) {
+     if (e == null) {
+    // sign up successful 
+    } else {
+    // Sign up didn't succeed. Look at the ParseException
+    }
+    }
+    });
+    ```
+- Login Screen
+    - (Read/Get) Authenticate user credentials
+        
+            ```
+            ParseUser.logInInBackground("user1","user1password", new LogInCallback() {
+            public void done(ParseUser user, ParseException e) {
+            if (user != null) {
+            // user is logged in.
+            } else {
+            // Login failed. Look at the ParseException to see what happened.
+            }
+            }
+            });
+    ```
+        
+    
+    
+- HomePage
+    - Create a new object with question and options details
+
+        ```
+        ParseQuery<ParseObject> query = ParseQuery.getQuery("question");
+        query.fromLocalDatastore();
+        query.getInBackground("xWMyZ4YEGZ", new GetCallback<ParseObject>() {
+        public void done(ParseObject object, ParseException e) {
+        if (e == null) {
+        // object will be the option selected by user
+        } else {
+        // something went wrong
+        }
+        }
+        });
+        ```
+
