@@ -67,7 +67,7 @@ QuickQuiz is an application that helps students quickly find answers for their q
 ## Wireframes
 
 ### [BONUS] Digital Wireframes & Mockups
-<img src="https://imgur.com/CQLkkVT.gif" width=600>
+<img src="https://i.imgur.com/4bKOnUl.gif" width=600>
 
 ### [BONUS] Interactive Prototype
 
