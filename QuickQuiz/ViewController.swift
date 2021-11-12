@@ -1,9 +1,4 @@
-//
-//  ViewController.swift
-//  QuickQuiz
-//
-//  Created by Vignesh Vigo on 11/11/21.
-//
+
 
 import UIKit
 
