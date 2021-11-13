@@ -10,6 +10,17 @@
 ### Description
 QuickQuiz is an application that helps students quickly find answers for their question from paragraphs.  
 
+### Sprint-1 User Stories
+The following functionality is completed:
+
+* [X] set up Parse Server
+* [X] User can sign up
+* [X] User can login to the application
+* [X] After login/signup user can view Welcome message
+
+### Video Walkthrough
+<img src=images/quickquiz1.gif width=250><br>
+
 ### App Evaluation
 - **Category:** Education
 - **Mobile:** This app will be primarily developed for usage in IOS platform
