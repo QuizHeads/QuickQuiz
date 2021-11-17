@@ -4,10 +4,10 @@
 target 'QuickQuiz' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
- 	pod 'Parse'
- 	pod 'AlamofireImage'
 
   # Pods for QuickQuiz
+   pod 'Parse'
+   pod 'AlamofireImage'
 
   target 'QuickQuizTests' do
     inherit! :search_paths
