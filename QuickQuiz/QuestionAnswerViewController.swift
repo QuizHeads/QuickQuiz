@@ -9,6 +9,8 @@ import UIKit
 import AVFoundation
 import Speech
 import Parse
+import Alamofire
+import CoreML
 
 class QuestionAnswerViewController: UIViewController,SFSpeechRecognizerDelegate {
     
@@ -242,7 +244,12 @@ class QuestionAnswerViewController: UIViewController,SFSpeechRecognizerDelegate 
         
         qa.saveInBackground{ (success, error) in
             if success{
-                print("saved!")
+                let alert = UIAlertController(title: "Successfully!!", message: "Your Q&A is ready for public view", preferredStyle: .alert)
+                let action = UIAlertAction(title: "Okay", style: .default){ (action) in
+                    print(action)
+                }
+                alert.addAction(action)
+                self.present(alert, animated: true, completion: nil)
             }else{
                 print("error!")
             }

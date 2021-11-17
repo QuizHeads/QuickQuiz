@@ -10,17 +10,20 @@ import Parse
 
 class NoteViewController: UIViewController {
 
+    @IBOutlet weak var noteTextView: UITextView!
     
-    @IBOutlet weak var noteTextField: UITextField!
     override func viewDidLoad() {
         super.viewDidLoad()
+        
 
         // Do any additional setup after loading the view.
     }
     
     @IBAction func onUpdateButton(_ sender: Any) {
+        
         let note = PFObject(className:"Notes")
-        note["note"] = noteTextField.text!
+        noteTextView.text = note["note"] as? String
+        note["note"] = noteTextView.text!
         note["author"] = PFUser.current()!
         
         note.saveInBackground{ (success, error) in
