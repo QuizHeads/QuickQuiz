@@ -17,6 +17,8 @@ The following functionality is completed:
 * [X] User can sign up
 * [X] User can login to the application
 * [X] After login/signup user can view Welcome message
+### App Walkthrough GIF
+<img src=images/quickquiz1.gif width=250><br>
 
 ### Sprint-2 User Stories
 The following functionality is completed:
