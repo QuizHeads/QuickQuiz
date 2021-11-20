@@ -25,7 +25,7 @@ The following functionality is completed:
 * [X] Implement BERT model to evaluate possible answer based on question and document. 
 
 ### Video Walkthrough
-<img src=images/quickquiz1.gif width=250><br>
+<img src=https://imgur.com/HtGEkMz.gif width=250><br>
 
 ### App Evaluation
 - **Category:** Education
