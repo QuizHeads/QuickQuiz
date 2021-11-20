@@ -18,6 +18,12 @@ The following functionality is completed:
 * [X] User can login to the application
 * [X] After login/signup user can view Welcome message
 
+### Sprint-2 User Stories
+The following functionality is completed:
+* [X] Implement homepage for user to post thier Q&A and view all public Q&A
+* [X] Implement speech recognizer which allows users can input question by their voice.
+* [X] Implement BERT model to evaluate possible answer based on question and document. 
+
 ### Video Walkthrough
 <img src=images/quickquiz1.gif width=250><br>
 
