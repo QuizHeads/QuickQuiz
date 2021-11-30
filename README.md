@@ -30,10 +30,11 @@ The following functionality is completed:
 <img src=https://imgur.com/HtGEkMz.gif width=250><br>
 ### Sprint-3 User Stories
 The following functionality is completed:
-* [X] Implement constraints 
+* [X] Implement constraints
+* [X] Complete and test speech recognizer 
 
 ### Video Walkthrough
-<img src=https://imgur.com/HtGEkMz.gif width=250><br>
+<img src=https://imgur.com/G3bJhRi.gif width=250><br>
 ### App Evaluation
 - **Category:** Education
 - **Mobile:** This app will be primarily developed for usage in IOS platform
