@@ -17,10 +17,23 @@ The following functionality is completed:
 * [X] User can sign up
 * [X] User can login to the application
 * [X] After login/signup user can view Welcome message
-
-### Video Walkthrough
+### App Walkthrough GIF
 <img src=images/quickquiz1.gif width=250><br>
 
+### Sprint-2 User Stories
+The following functionality is completed:
+* [X] Implement homepage for user to post thier Q&A and view all public Q&A
+* [X] Implement speech recognizer which allows users can input question by their voice.
+* [X] Implement BERT model to evaluate possible answer based on question and document. 
+
+### Video Walkthrough
+<img src=https://imgur.com/HtGEkMz.gif width=250><br>
+### Sprint-3 User Stories
+The following functionality is completed:
+* [X] Implement constraints 
+
+### Video Walkthrough
+<img src=https://imgur.com/HtGEkMz.gif width=250><br>
 ### App Evaluation
 - **Category:** Education
 - **Mobile:** This app will be primarily developed for usage in IOS platform
