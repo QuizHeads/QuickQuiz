@@ -28,7 +28,12 @@ The following functionality is completed:
 
 ### Video Walkthrough
 <img src=https://imgur.com/HtGEkMz.gif width=250><br>
+### Sprint-3 User Stories
+The following functionality is completed:
+* [X] Implement constraints 
 
+### Video Walkthrough
+<img src=https://imgur.com/HtGEkMz.gif width=250><br>
 ### App Evaluation
 - **Category:** Education
 - **Mobile:** This app will be primarily developed for usage in IOS platform
