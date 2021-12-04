@@ -35,6 +35,13 @@ The following functionality is completed:
 
 ### Video Walkthrough
 <img src=https://imgur.com/G3bJhRi.gif width=250><br>
+### Sprint-4 User Stories
+The following functionality is completed:
+* [X] Fixed constraints
+* [X] Clean the code
+
+### Video Walkthrough
+<img src=https://imgur.com/XDXzIpH.gif width=250><br>
 ### App Evaluation
 - **Category:** Education
 - **Mobile:** This app will be primarily developed for usage in IOS platform
